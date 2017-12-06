@@ -14,22 +14,11 @@
     </licenses>
     <modules>
         <module>isoparser</module>
-        <!--<module>androidtest</module>-->
-        <module>examples</module>
         <module>muxer</module>
-        <module>streaming</module>
     </modules>
     <prerequisites>
         <maven>3.0</maven>
     </prerequisites>
-    <profiles>
-        <profile>
-            <id>android</id>
-            <modules>
-                <module>androidtest</module>
-            </modules>
-        </profile>
-    </profiles>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
